@@ -1,0 +1,14 @@
+{
+    "content": [
+        {
+            "completion": "I'm sorry I was unable to assist you. I will redirect you to a manager.",
+            "type": "help",
+            "prompt": "I want to speak to your manager"
+        },
+        {
+            "completion": "I'm sorry I was unable to assist you. I will redirect to another representative.",
+            "type": "help",
+            "prompt": "I want to speak to a human"
+        }
+    ]
+}

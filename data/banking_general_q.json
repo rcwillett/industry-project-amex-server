@@ -1,0 +1,44 @@
+{
+    "content": [
+        {
+            "completion": "banking_summary",
+            "type": "api_info",
+            "prompt": "Can you tell me the status of my accounts?"
+        },
+        {
+            "completion": "banking_summary",
+            "type": "api_info",
+            "prompt": "How much do I have in my savings account?"
+        },
+        {
+            "completion": "credit_card_summary",
+            "type": "api_info",
+            "prompt": "When is my next credit card payment due?"
+        },
+        {
+            "completion": "credit_card_summary",
+            "type": "api_info",
+            "prompt": "What is the interest rate on my credit card?"
+        },
+        {
+            "completion": "credit_card_summary",
+            "type": "api_info",
+            "prompt": "What is the balance owing on my credit card?"
+        },
+        {
+            "completion": "mortgage_summary",
+            "type": "api_info",
+            "prompt": "When is my next mortgage payment?"
+        },
+        {
+            "completion": "mortgage_summary",
+            "type": "api_info",
+            "prompt": "What is my mortgage interest rate?"
+        },
+        {
+            "completion": "mortgage_summary",
+            "type": "api_info",
+            "prompt": "What is the status of my mortgage?"
+        }
+    ]
+}

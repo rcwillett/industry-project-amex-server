@@ -1,7 +1,7 @@
-// Script to creating embeddings for prompt of general QA
+// Script to generate embeddings for prompt of banking_q
 import * as dotenv from 'dotenv';
 import { Configuration, OpenAIApi } from 'openai';
-import qaJSON from '../data/q_a.json' assert { type: "json" };
+import qaJSON from '../data/help_prompt.json' assert { type: "json" };
 import fs from 'fs';
 
 dotenv.config();
@@ -24,6 +24,6 @@ for (const qa of qaJSON['content']) {
     index++;
 }
 
-fs.writeFileSync('./data/q_a_embed.json', JSON.stringify(embedJSON))
+fs.writeFileSync('./data/help_prompt_embed.json', JSON.stringify(embedJSON))
 
 console.log(JSON.stringify());
